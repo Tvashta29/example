@@ -1,0 +1,386 @@
+.h1
+{
+    color:#461719;
+    font-family:Brush Script MT;
+    font-size:50px;
+}
+.offcanvas-header
+{
+    color:#461719;
+    font-size:30px;
+}
+.offcanvas-body
+{
+    color:#461719;
+    font-size:20px;
+}
+.btnwish
+{
+    border:2px solid #461719;
+}
+.btnwish a
+{
+    color:#461719;
+    text-decoration: none;
+}
+.btnwish:hover
+{
+    border:2px solid #461719;
+    background-color: #461719;
+}
+.btnwish a:hover
+{
+    color:white;
+    text-decoration: none;
+}
+.nav-link
+    {
+       color:#461719; 
+       font-family:arial;
+    }
+    .nav-link:hover
+    {
+        text-decoration:underline;
+        color:#461719;
+    }
+    .img1
+    {
+        height:70px;
+        width:70px;
+        border:2px solid #461719;
+    }
+    .banner
+    {
+        background-image: url('images/banner.webp');
+        height:630px;
+        width:100%;
+        background-size:100% 100%;
+    }
+    .banner11
+    {
+        background-image: url('images/banner1.jpeg');
+        height:630px;
+        width:100%;
+        background-size:100% 100%;
+    }
+    .head1
+    {
+        color:#461719;
+        font-size:40px;
+        text-align:center;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 70px!important;
+    }
+    .shopimg:hover
+    {
+        transform:scale(1.1,1.1);
+
+    }
+    .shop
+    {
+        color:#461719;
+        text-decoration: none;
+        font-size:20px;
+    }
+    .shop:hover
+    {
+       text-decoration:underline;
+        color:#461719; 
+    }
+    /*Shop Up To 50% Off Iconic Beauty Kits!*/
+    .img2
+    {
+        background-image: url('images/iconic22.webp');
+        width: 380px;
+        height: 300px;
+        background-size: cover;
+         background-position: center;
+        transition: 0.4s ease-in-out;
+    }
+    .img2:hover
+    {
+        background-image: url('images/iconic2.webp');
+        width: 380px;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+    .img3
+    {
+        background-image: url('images/iconic11.webp');
+        width: 380px;
+        height: 300px;
+        background-size: cover;
+         background-position: center;
+        transition: 0.4s ease-in-out;
+    }
+    .img3:hover
+    {
+        background-image: url('images/iconic1.webp');
+        width: 380px;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+    .img4
+    {
+        background-image: url('images/iconic33.webp');
+        width: 380px;
+        height: 300px;
+        background-size: cover;
+         background-position: center;
+        transition: 0.4s ease-in-out;
+    }
+    .img4:hover
+    {
+        background-image: url('images/iconic3.webp');
+        width: 380px;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+    .img5
+    {
+        background-image: url('images/iconic44.webp');
+        width: 380px;
+        height: 300px;
+        background-size: cover;
+         background-position: center;
+        transition: 0.4s ease-in-out;
+    }
+    .img5:hover
+    {
+        background-image: url('images/iconic4.webp');
+        width: 380px;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+    .img6
+    {
+        background-image: url('images/iconic55.webp');
+        width: 380px;
+        height: 300px;
+        background-size: cover;
+         background-position: center;
+        transition: 0.4s ease-in-out;
+    }
+    .img6:hover
+    {
+        background-image: url('images/iconic5.webp');
+        width: 380px;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+    .img7
+    {
+        background-image: url('images/iconic66.webp');
+        width: 380px;
+        height: 300px;
+        background-size: cover;
+         background-position: center;
+        transition: 0.4s ease-in-out;
+    }
+    .img7:hover
+    {
+        background-image: url('images/iconic6.webp');
+        width: 380px;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+    .card-body h6
+    {
+        background-color: rgb(231, 199, 160);
+       color:#461719;
+       font-size:15px;
+    }
+    .card-body strike
+    {
+        color:red;
+        font-size: 13px;
+    }
+    .card-body h4
+    {
+        font-size: 15px;
+        color:#461719;
+        font-family:Bahnschrift SemiLight Condensed;
+    }
+    .btn-block
+    {
+        color:#461719;
+        background: whitesmoke;
+        border:none;
+    }
+    .btn-block:hover
+    {
+        background-color:#461719;
+        color: whitesmoke;
+    }
+    .banner2
+    {
+        background-image: url('images/BANNN.jpg');
+        height:630px;
+        width:100%;
+        background-size:cover;
+    }
+    .banner22
+    {
+        background-image: url('images/makebanner1.webp');
+        height: 800px;;
+        width:100%;
+        background-size:cover;
+    }
+    /*options*/
+    .delivery
+    {
+        background-color: gainsboro;
+    }
+    .delivery p i
+    {
+        font-size:65px;
+        color:#461719;
+        justify-content: center;
+    }
+    .Icon
+    {
+        height:75px;
+        width:55px;
+    }
+    .delivery h4
+    {
+        font-size:20px;
+    }
+    .delivery h6
+    {
+        font-size: 13px;
+        background-color: gainsboro;
+    }
+    .usp1
+    {
+        background-color: rgb(232, 229, 225);
+    }
+    .usp h6
+    {
+        font-size:30px;
+        font-family: Arial Narrow;
+        color:black;
+    }
+    .usp span
+    {
+        font-size: 30px;
+        padding-right: 10px;
+    }
+    /*Footer*/
+    .foot
+    {
+        background-color: gainsboro;
+    }
+    .about h6
+    {
+        color:#461719;
+        font-size: 18px;
+        padding:10px
+    }
+    .about ul li a
+    {
+        text-decoration: none;
+        color:#461719;
+        padding:10px;
+    }
+    .form
+    h4
+    {
+        color:#461719;
+        font-size:18px;
+    }
+    .form span
+    {
+        color:#461719;
+        font-size:13px;
+    }
+    .form p
+    {
+        padding:0px;
+        margin:0px;
+        font-size:10px;
+    }
+
+    /*About page CSS*/
+    .abt
+    {
+        background-color: #461719;
+
+    }
+    .leg h1
+    {
+        color:rgb(231, 212, 183);
+        font-size: 70px;
+    }
+    .leg h2
+    {
+        color:rgb(231, 212, 183);
+        font-size: 50px;
+        font-weight: lighter;
+    }
+    .jorney h2
+    {
+        color:rgb(231, 212, 183);
+    }
+    .jorney p
+    {
+        color:white;
+    }
+    .jorney ul li
+    {
+        color:white;
+    }
+
+    /*Makeup page CSS*/
+    .makeimg
+    {
+        height: 200px;
+        width: 200px;
+    }
+
+    /*service page css*/
+    .service h1
+    {
+        color:#461719;
+        font-family: Bahnschrift Light;
+    }
+    .service p
+    {
+        color: #461719;
+        text-align: justify;
+        font: size 15px;
+    }
+    .book h3
+    {
+        font-size:35px;
+        color:#461719;
+    }
+    .book p
+    {
+        color:#461719;
+    }
+    @media screen and (min-width:576px){
+        .opt
+        {
+            display:flex;
+        }
+    }
+    /*Login Page CSS*/
+    .form1
+    {
+        background-color: white;
+    }
+    .form1 h4
+    {
+        color:#461719;
+    }
+    .form1 label
+    {
+        color:#461719;
+    }

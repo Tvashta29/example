@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEST SELLERS|Élevé Beauty</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+    <div class="container-fluid">
+    <!--Header Section-->
+    <h1 class="h1 text-center mt-2">Élevé Beauty
+    </h1>
+    <div class="justify-content-end cart">
+        <i class="fa-regular fa-heart float-end me-5" data-bs-toggle="offcanvas" data-bs-target="#wish" title="Wishlist"></i>
+    </div>
+    <div >
+        <i class="fa-solid fa-bag-shopping float-end me-2" data-bs-toggle="offcanvas" data-bs-target="#bag" title="Bag"></i>
+    </div>
+    <div class="offcanvas offcanvas-end" id="wish">
+        <div class="offcanvas-header mt-5">YOUR WISHLIST IS EMPTY!!
+             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">Adding items to your wishlist by clicking the heart icon as you shop.
+            <div class="mt-5">
+            <button class="btn btnwish" type="button"><a href="bestseller.html">SHOP NOW</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end" id="bag">
+        <div class="offcanvas-header mt-5"> THERE ARE NO ITEMS IN YOUR BAG!!
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">Once you add items to your bag, They will appear Here.
+            <div class="mt-5">
+            <button class="btn btnwish" type="button"><a href="bestseller.html">SHOP NOW</a></button>
+            </div>
+        </div>
+    </div>
+    <!--Navbar Section-->
+        <nav class="navbar-expand-lg sticky-top d-flex"  >
+            <div class="container-fluid">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                </button>
+            <div class="collapse navbar-collapse justify-content-center align-items-center" id="Navbar" style="background-color: white;">
+                <ul class="nav navbar-expand-sm">
+                    <li class="nav-item pe-2"><a href="makeup.html" class="nav-link js-scroll-trigger fs-5" title="Makeup">MAKEUP</a></li>
+                    <li class="nav-item pe-2"><a href="skincare.html" class="nav-link js-scroll-trigger fs-5" title="Skincare">SKINCARE</a></li>
+                    <li class="nav-item pe-2"><a href="bestseller.html" class="nav-link js-scroll-trigger fs-5" title="Best-sellers">BEST SELLERS</a></li>
+                    
+                    <li class="nav-item pe-2"><a href="index.html" class="nav-link js-scroll-trigger fs-5"><img src="images/logo.png" class="img-fluid img-thumbnail rounded-circle d-none d-lg-block img1" title="home">
+                    </a></li>
+                    <li class="nav-item pe-2"><a href="index.html" class="nav-link js-scroll-trigger fs-5 d-lg-none d-sm-block" title="home">HOME</a></li>
+                    <li class="nav-item pe-2"><a href="services.html" class="nav-link js-scroll-trigger fs-5" title="Services">SERVICES</a></li>
+                    <li class="nav-item pe-2"><a href="about.html" class="nav-link js-scroll-trigger fs-5" title="About">ABOUT</a></li>
+                    <li class="nav-item "><a href="login.html" class="nav-link js-scroll-trigger fs-5" title="Log in">LOG IN</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    
+    <!--Body Section-->
+    <div class="container-fluid">
+        <h1 class="text-center head1">Best Sellers </h1>
+        <div class="row mt-4">
+            <div class=" col-lg-3 col-sm-6 col-md-4 p-3">
+                <div class="card">
+                    <img src="images/treasure.webp" class="img-fluid shopimg">
+                    <div class="card-footer">
+                        <h5 class="shop">BEAUTY TREASURE CHEST</h5>
+                        <h6>$50.00</h6>
+                        <div class="d-grid">
+                            <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-sm-6 col-md-4 p-3">
+                <div class="card">
+                    <img src="images/best1.webp" class="img-fluid shopimg">
+                    <div class="card-footer">
+                        <h5 class="shop">PILLOW TALK DREAMS</h5>
+                        <h6>$185.00</h6>
+                        <div class="d-grid">
+                            <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-sm-6 col-md-4 p-3">
+                <div class="card">
+                    <img src="images/best2.webp" class="img-fluid shopimg">
+                    <div class="card-footer">
+                        <h5 class="shop"> LIP PLUMPGASM</h5>
+                        <h6>$45.00</h6>
+                        <div class="d-grid">
+                            <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-4 p-3">
+                <div class="card">
+                        <img src="images/skin12.webp" class="img-fluid shopimg">
+                        <div class="card-footer">
+                            <h5 class="shop">MAGIC SHEER GLOW</h5>
+                            <h6>$50.90</h6>
+                            <div class="d-grid">
+                                <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-4 p-3">
+                <div class="card">
+                        <img src="images/lipcheat.webp" class="img-fluid shopimg">
+                        <div class="card-footer">
+                            <h5 class="shop">LIP CHEAT</h5>
+                            <h6>$32.60</h6>
+                            <div class="d-grid">
+                                <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-4 p-3">
+                <div class="card">
+                        <img src="images/skin8.webp" class="img-fluid shopimg">
+                        <div class="card-footer">
+                            <h5 class="shop">MAGIC NIGHT CREAM</h5>
+                            <h6>$22.90</h6>
+                            <div class="d-grid">
+                                <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-4 p-3">
+                <div class="card">
+                        <img src="images/best3.webp" class="img-fluid shopimg">
+                        <div class="card-footer">
+                            <h5 class="shop">JOYPHORIA</h5>
+                            <h6>$84.90</h6>
+                            <div class="d-grid">
+                                <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-4 p-3">
+                <div class="card">
+                        <img src="images/skin9.webp" class="img-fluid shopimg">
+                        <div class="card-footer">
+                            <h5 class="shop">MAGIC HYDRATOR MIST</h5>
+                            <h6>$56.75</h6>
+                            <div class="d-grid">
+                                <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-4 p-3">
+                <div class="card">
+                        <img src="images/kit.webp" class="img-fluid shopimg">
+                        <div class="card-footer">
+                            <h5 class="shop">BLUSHING BEAUTY</h5>
+                            <h6>$56.75</h6>
+                            <div class="d-grid">
+                                <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-4 p-3">
+                <div class="card">
+                        <img src="images/best4.webp" class="img-fluid shopimg">
+                        <div class="card-footer">
+                            <h5 class="shop">AIRBRUSH GLOW & SET</h5>
+                            <h6>$115.75</h6>
+                            <div class="d-grid">
+                                <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-4 p-3">
+                <div class="card">
+                        <img src="images/skin7.webp" class="img-fluid shopimg">
+                        <div class="card-footer">
+                            <h5 class="shop">MULTI-MIRACLE GLOW</h5>
+                            <h6>$32.90</h6>
+                            <div class="d-grid">
+                                <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-4 p-3">
+                <div class="card">
+                        <img src="images/contour.webp" class="img-fluid shopimg">
+                        <div class="card-footer">
+                            <h5 class="shop">HOLLYWOOD CONTOUR</h5>
+                            <h6>$22.90</h6>
+                            <div class="d-grid">
+                                <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-sm-6 col-md-4 p-3">
+            <div class="card">
+                <img src="images/flawless.webp" class="img-fluid shopimg">
+                <div class="card-footer">
+                    <h5 class="shop">AIRBRUSH FOUNDATION</h5>
+                    <h6>$70.00</h6>
+                    <div class="d-grid">
+                        <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6 col-md-4 p-3">
+            <div class="card">
+                <img src="images/skin3.webp" class="img-fluid shopimg">
+                <div class="card-footer">
+                    <h5 class="shop">MAGIC SERUM DUO</h5>
+                    <h6>$85.20</h6>
+                    <div class="d-grid">
+                        <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-4 p-3">
+            <div class="card">
+                    <img src="images/spray.webp" class="img-fluid shopimg">
+                    <div class="card-footer">
+                        <h5 class="shop">FLAWLESS SETTING SPRAY</h5>
+                        <h6>$54.60</h6>
+                        <div class="d-grid">
+                            <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-4 p-3">
+            <div class="card">
+                    <img src="images/bronzer.webp" class="img-fluid shopimg">
+                    <div class="card-footer">
+                        <h5 class="shop">SUNKISSED BRONZER</h5>
+                        <h6>$32.90</h6>
+                        <div class="d-grid">
+                            <button class="btn btn-block" data-bs-toggle="offcanvas" data-bs-target="#bag1">Add to Bag<i class="fa-solid fa-bag-shopping"></i></button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+            <div class="offcanvas offcanvas-end" id="bag1">
+        <div class="offcanvas-header mt-5 text-center"> YAYYY!!!
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">One Item Added
+            <div class="mt-5">
+            <button class="btn btnwish" type="button"><a href="bestseller.html">Continue Shopping</a></button>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    
+    <!--options-->
+    <div class="row mt-5">
+        <div class="col-lg-3 col-sm-6">
+            <div class="card">
+                <div class="card-body delivery">
+                    <p class="text-center"><i class="fa-regular fa-truck"></i></p>
+                    <h4 class="text-center">FREE Delivery & Returns</h4>
+                    <h6 class="text-center">On all orders over $50.00</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="card">
+                <div class="card-body delivery">
+                    <p class="text-center"><i class="fa-solid fa-heart"></i></p>
+                    <h4 class="text-center">Unlock REWARDS and Benifits </h4>
+                    <h6 class="text-center">with Élevé's Darlings Lovalty club</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="card">
+                <div class="card-body delivery">
+                    <p class="text-center"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDIiIGhlaWdodD0iNDIiIHZpZXdCb3g9IjAgMCA0MiA0MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE3LjEzNzUgMTIuMzE1MUMxOC4xNzkgOS42MTI5NyAxOS45MTQ4IDcuNjMxNDQgMjIuNTE4NSA2LjU1MDZDMjUuMTIyMSA1LjI4OTYzIDI4LjI0NjUgNi41NTA2IDI5LjI4OCA5LjI1MjY5QzMxLjM3MDkgMTQuNjU2OSAyOC45NDA4IDIwLjc4MTYgMjMuOTA3MSAyMy4xMjM0QzIxLjMwMzQgMjQuMzg0NCAxOC4xNzkgMjMuMTIzNCAxNy4xMzc1IDIwLjI0MTJDMTYuMDk2MSAxNy41MzkxIDE2LjA5NjEgMTQuODM3IDE3LjEzNzUgMTIuMzE1MVoiIHN0cm9rZT0iIzNBMDgwQSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIi8+CjxwYXRoIGQ9Ik0xNC4yMTU4IDMwLjI3OTRDMTQuOTAzOSAyOC42OTIzIDE1Ljc2NCAyNi45Mjg5IDE2LjQ1MiAyNS4zNDE5QzE2LjYyNCAyNC45ODkyIDE2LjYyNCAyNC44MTI5IDE2LjI4IDI0LjYzNjVDMTUuMDc1OSAyMy40MDIyIDE0LjIxNTggMjEuOTkxNSAxMy44NzE4IDIwLjIyODFDMTIuMTUxNyAxMy4zNTA5IDE1LjI0NzkgNi40NzM3NiAyMS40NDA0IDMuMjk5NjhDMjUuNTY4OCAxLjE4MzYzIDMwLjU1NzIgMy4yOTk2OCAzMi4yNzc0IDcuNzA4MTJDMzUuMDI5NiAxNC43NjE2IDMxLjkzMzMgMjIuODczMiAyNS4yMjQ4IDI2LjA0NzJDMjQuMTkyNyAyNi41NzYzIDIyLjk4ODYgMjYuNzUyNiAyMS43ODQ1IDI2Ljc1MjZDMjEuNDQwNCAyNi43NTI2IDIxLjQ0MDQgMjYuNzUyNiAyMS4yNjg0IDI3LjEwNTNDMjAuNDA4NCAyOS45MjY3IDE5LjM3NjMgMzIuNzQ4MSAxOC41MTYyIDM1LjU2OTVDMTguMTcyMiAzNi40NTEyIDE4LjAwMDIgMzcuMzMyOSAxNy42NTYxIDM4LjAzODJDMTYuNzk2MSAzOS40NDg5IDE1LjA3NTkgMzkuOTc3OSAxMy41Mjc4IDM5LjA5NjJDMTEuOTc5NiAzOC41NjcyIDExLjQ2MzYgMzYuODAzOSAxMS45Nzk2IDM1LjIxNjhDMTIuMzIzNyAzNC4zMzUxIDEyLjY2NzcgMzMuNDUzNCAxMy4xODM4IDMyLjc0ODFDMTMuNTI3OCAzMS44NjY0IDEzLjg3MTggMzEuMTYxIDE0LjIxNTggMzAuMjc5NFoiIHN0cm9rZT0iIzNBMDgwQSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0yMy40NjA5IDE4Ljk4MjNMMjYuMjg1NyAxNi44NjcyIiBzdHJva2U9IiMzQTA4MEEiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik03LjgyODEgMTIuMjI0MUM3Ljg2MjI2IDExLjcxOSA3LjkyNTM3IDExLjM5NjUgNy45OTk1IDExLjAyNjVDOC42ODUxMiA3LjYwNTA5IDEyLjYyNzQgNy4yNjI5NCAxMi42Mjc0IDcuMjYyOTRDMTIuNjI3NCA3LjI2Mjk0IDguNjg1MTEgNy4wOTE4NyA3LjgyODEgMy42NzA0MUM3LjczMDg0IDMuMjgyMTQgNy42NTY3IDIuODE1MDUgNy42NTY3IDIuNDcyOUM3LjY1NjcgMi45ODYxMiA3LjU2ODU3IDMuMjU0ODUgNy40ODUyOSAzLjY3MDQxQzYuNzk5NjggNy4wOTE4NyAyLjg1NzQyIDcuNDM0MDEgMi44NTc0MiA3LjQzNDAxQzIuODU3NDIgNy40MzQwMSA2Ljc1OTYyIDcuNjA1MDkgNy42MTY2MyAxMS4wMjY1QzcuNzA2NDEgMTEuMzg1IDcuNzczNTYgMTEuODk2IDcuODI4MSAxMi4yMjQxWiIgc3Ryb2tlPSIjM0EwODBBIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMzMuMzgyOCAzNi43MTlDMzMuNDIzOCAzNi4xMTI4IDMzLjQ5OTUgMzUuNzI1OSAzMy41ODg1IDM1LjI4MkMzNC40MTEyIDMxLjE3NjIgMzkuMTQxOSAzMC43NjU2IDM5LjE0MTkgMzAuNzY1NkMzOS4xNDE5IDMwLjc2NTYgMzQuNDExMiAzMC41NjAzIDMzLjM4MjggMjYuNDU0NkMzMy4yNjYxIDI1Ljk4ODcgMzMuMTc3MSAyNS40MjgyIDMzLjE3NzEgMjUuMDE3NkMzMy4xNzcxIDI1LjYzMzQgMzMuMDcxMyAyNS45NTU5IDMyLjk3MTQgMjYuNDU0NkMzMi4xNDg3IDMwLjU2MDMgMjcuNDE4IDMwLjk3MDkgMjcuNDE4IDMwLjk3MDlDMjcuNDE4IDMwLjk3MDkgMzIuMTAwNiAzMS4xNzYyIDMzLjEyOSAzNS4yODJDMzMuMjM2OCAzNS43MTIxIDMzLjMxNzMgMzYuMzI1MyAzMy4zODI4IDM2LjcxOVoiIHN0cm9rZT0iIzNBMDgwQSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==" class="Icon svg Icon--beautyprofile img-fluid" alt=""></p>
+                    <h4 class="text-center">Complete Your Beauty Profile</h4>
+                    <h6 class="text-center">to get Personalized Recommendations</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="card">
+                <div class="card-body delivery">
+                    <p class="text-center"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDIiIGhlaWdodD0iNDIiIHZpZXdCb3g9IjAgMCA0MiA0MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9InBhdGgtMS1pbnNpZGUtMV82ODU5XzE0MTM5IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0yNy40NTU3IDIxLjM4NjVWMzYuOTg2NEMyNy40NTU3IDM4LjU4MTkgMjUuOTIxNyA0MCAyNC4xOTYxIDQwSDkuODE1M0M4LjA4OTYxIDQwIDYuNTU1NjYgMzguNTgxOSA2LjU1NTY2IDM2Ljk4NjRWMzAuNzgxOSIvPgo8L21hc2s+CjxwYXRoIGQ9Ik0yNy40NTU3IDIxLjM4NjVIMjYuNDU1N1YzNi45ODY0SDI3LjQ1NTdIMjguNDU1N1YyMS4zODY1SDI3LjQ1NTdaTTI3LjQ1NTcgMzYuOTg2NEgyNi40NTU3QzI2LjQ1NTcgMzcuOTU3MSAyNS40NDQ4IDM5IDI0LjE5NjEgMzlWNDBWNDFDMjYuMzk4NyA0MSAyOC40NTU3IDM5LjIwNjYgMjguNDU1NyAzNi45ODY0SDI3LjQ1NTdaTTI0LjE5NjEgNDBWMzlIOS44MTUzVjQwVjQxSDI0LjE5NjFWNDBaTTkuODE1MyA0MFYzOUM4LjU2NjU2IDM5IDcuNTU1NjYgMzcuOTU3MSA3LjU1NTY2IDM2Ljk4NjRINi41NTU2Nkg1LjU1NTY2QzUuNTU1NjYgMzkuMjA2NiA3LjYxMjY2IDQxIDkuODE1MyA0MVY0MFpNNi41NTU2NiAzNi45ODY0SDcuNTU1NjZWMzAuNzgxOUg2LjU1NTY2SDUuNTU1NjZWMzYuOTg2NEg2LjU1NTY2WiIgZmlsbD0iIzNBMDgwQSIgbWFzaz0idXJsKCNwYXRoLTEtaW5zaWRlLTFfNjg1OV8xNDEzOSkiLz4KPHBhdGggZD0iTTEzLjg1MTYgNi4zMTgxMkgyMC40MTA2IiBzdHJva2U9IiMzQTA4MEEiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0yNC4yMjU2IDJDMjUuOTM1NiAyIDI3LjQ1NjEgMy40MTgyMiAyNy40NTYxIDUuMDEzNjdWOS45Nzc1NEwyNi40NTYxIDkuNzM5MjZWNS4wMTM2N0MyNi40NTYxIDQuMDM0NjggMjUuNDQ5NyAzIDI0LjIyNTYgM0g5Ljc4NjEzQzguNjM4MzMgMyA3LjY4MjE2IDMuOTA5NjIgNy41NjczOCA0LjgzMDA4TDcuNTU1NjYgNS4wMDQ4OEM3LjU1NTgyIDUuMDA5OTcgNy41NTc2MiA1LjAxNTM5IDcuNTU3NjIgNS4wMjA1MVYzMi4wMjA1QzcuNTU3NDIgMzIuMjk2NSA3LjMzMzY0IDMyLjUyMDUgNy4wNTc2MiAzMi41MjA1QzYuNzgxNiAzMi41MjA1IDYuNTU3ODIgMzIuMjk2NSA2LjU1NzYyIDMyLjAyMDVWNS4wMTM2N0g2LjU1NTY2QzYuNTU1NjYgMy40NjgwNyA3Ljk4MjE2IDIuMDg4NTggOS42MjU5OCAyLjAwMzkxTDkuNzg2MTMgMkgyNC4yMjU2WiIgZmlsbD0iIzNBMDgwQSIvPgo8cGF0aCBkPSJNMjUuOTMwNyAyMS4zMzY4SDM0LjQ0MzRDMzQuOTk1NyAyMS4zMzY4IDM1LjQ0MzQgMjAuODg5MSAzNS40NDM0IDIwLjMzNjhWMTAuNTg0N0MzNS40NDM0IDEwLjAzMjQgMzQuOTk1NyA5LjU4NDcyIDM0LjQ0MzQgOS41ODQ3MkgyMC40Njc4QzE5LjkxNTUgOS41ODQ3MiAxOS40Njc4IDEwLjAzMjQgMTkuNDY3OCAxMC41ODQ3VjIwLjMzNjhDMTkuNDY3OCAyMC44ODkxIDE5LjkxNTUgMjEuMzM2OCAyMC40Njc4IDIxLjMzNjhIMjIuMzIwNiIgc3Ryb2tlPSIjM0EwODBBIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTI1Ljg5MDUgMjEuMzgwNEwyMi4zNzQgMjUuMjQ3MVYyMS4zODA0IiBzdHJva2U9IiMzQTA4MEEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K" class="Icon svg Icon--virtualconsultationlight" alt=""></p>
+                    <h4 class="text-center">Book a 1:1 Online Consulation</h4>
+                    <h6 class="text-center">with Élevé's Pro Makeup Artists</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5 usp1">
+        <div class="col-lg-3 col-sm-6 offset-lg-3 usp d-flex p-3">
+           <span><i class="fa-sharp fa-solid fa-leaf"></i></span>
+           <h6>PARABEN FREE</h6>
+        </div>
+        <div class="col-lg-3 col-sm-6 offset-lg-2 usp d-flex p-3">
+             <span><i class="fa-sharp fa-solid fa-fish"></i></span>
+             <h6>CRUELTY FREE</h6>
+        </div>
+    </div> 
+    <!--Footer-->
+    <div class="foot">
+        <div class="row mt-5">
+            <div class="col-lg-3 col-sm-6 p-5">
+                <div class="about">
+                    <ul CLASS="list-unstyled">
+                        <li><h6>ABOUT</h6></li>
+                        <li><a href="store.html">Store Locator</a></li>
+                        <li><a href="about.html">About Élevé</a></li>
+                        <li><a href="#">Privacy Policy</a></li> 
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 p-5">
+                <div class="about">
+                    <ul CLASS="list-unstyled">
+                        <li><h6>QUICK LINKS</h6></li>
+                        <li><a href="store.html">track Order</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Return/Refund Policy</a></li> 
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Support: care@elevebeauty.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 p-5 offset-lg-1">
+                <div class="form">
+                    <h4>SIGN UP TO RECEIVE EMAILS</h4>
+                    <span>Be the first to know about products, offers and tips</span><br/>
+                    <label class="form-label">Email</label>
+                    <input class="form-control" name="mail" type="mail" placeholder="enter your email"/>
+                    <button class="btn btnwish mt-2" type="submit">SIGN UP</button>
+                    <p class="mt-2">By submitting your email address, you agree receive marketing information about Élevé Beauty Limited's products or services by email and social media platforms. For more information about how we use your personal information, please see our Privacy Policy. You can unsubscribe at any time by contacting us.</p>
+                </div>
+                <div>
+                    <span><i class="fa-brands fa-facebook"></i></span>
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                    <span><i class="fa-brands fa-x-twitter"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript">
+        $('.js-scroll-trigger').click(function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+</body>
+</html>
